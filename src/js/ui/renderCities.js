@@ -16,7 +16,7 @@ export async function renderCities(cities) {
     `;
 
     card.addEventListener("click", () => {
-      window.location.href = `./pages/city.html?city=${city.city}`;
+   window.location.href = `city.html?city=${city.city}`;
     });
 
     container.appendChild(card);
